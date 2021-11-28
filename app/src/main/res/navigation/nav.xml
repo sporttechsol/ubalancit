@@ -13,7 +13,9 @@
             android:id="@+id/openStartScreen"
             app:destination="@id/chooseDays"
             app:exitAnim="@anim/fade_out"
-            app:enterAnim="@anim/fade_in" />
+            app:enterAnim="@anim/fade_in"
+            app:popUpTo="@id/logo"
+            app:popUpToInclusive="true" />
 
     </fragment>
 

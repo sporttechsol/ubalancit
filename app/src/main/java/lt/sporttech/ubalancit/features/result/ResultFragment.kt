@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import lt.sporttech.ubalancit.R
 
 class ResultFragment: Fragment() {
 
@@ -41,7 +43,7 @@ class ResultFragment: Fragment() {
     override fun onStart() {
         super.onStart()
         if (viewModel.shouldReset()) {
-            android.util.Log.v("CharlieDebug", "RESET!")
+            findNavController().navigate(R.id.exercisesList)
         }
     }
 }

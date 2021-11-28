@@ -66,8 +66,6 @@ class WorkoutStateIterator(
             null
         }
 
-        return currentState.also {
-            android.util.Log.v("CharlieDebug", "Results: ${it.setResults.joinToString { it.name }}")
-        }
+        return currentState
     }
 }

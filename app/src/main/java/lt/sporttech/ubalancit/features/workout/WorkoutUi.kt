@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -40,6 +41,7 @@ internal fun WorkoutUi(
     submitResult: (SetResult) -> Unit,
 ) = when (state) {
     is WorkoutState.Progressing -> Exercise(
+        state.day.dayOfWeek,
         state.day.complexes[state.complexIndex].exercises[state.exerciseIndex],
         state.setIndex,
         state::setResultInCurrentExercise,
@@ -50,7 +52,9 @@ internal fun WorkoutUi(
 
 @Composable
 private fun LoadingUi() = Box(
-    modifier = Modifier.fillMaxSize().background(Color.White),
+    modifier = Modifier
+        .fillMaxSize()
+        .background(Color.White),
     contentAlignment = Alignment.Center
 ) {
     CircularProgressIndicator()
@@ -58,6 +62,7 @@ private fun LoadingUi() = Box(
 
 @Composable
 private fun Exercise(
+    dayOfWeek: DayOfWeek,
     exercise: Exercise,
     currentSetIndex: Int,
     setResultInCurrentExercise: (setIndex: Int) -> SetResult?,
@@ -65,7 +70,16 @@ private fun Exercise(
 ) = Column(
     Modifier
         .fillMaxSize()
-        .background(Color.White)) {
+        .background(Color.White)
+) {
+
+    Text(
+        modifier = Modifier.fillMaxWidth().padding(vertical = 16.dp),
+        text = dayOfWeek.title,
+        color = Color.Black,
+        fontSize = 18.sp,
+        textAlign = TextAlign.Center,
+    )
 
     Image(exercise.imageRes)
 
