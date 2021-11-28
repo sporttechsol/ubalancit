@@ -3,14 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav"
-    app:startDestination="@id/workout" >
+    app:startDestination="@id/logo" >
 
     <fragment
-        android:id="@+id/choosePlan"
-        android:name="lt.sporttech.ubalancit.features.chooseplan.ChoosePlanFragment" >
+        android:id="@+id/logo"
+        android:name="lt.sporttech.ubalancit.logo.LogoFragment" >
 
         <action
-            android:id="@+id/proceedFromChoosePlan"
+            android:id="@+id/openStartScreen"
             app:destination="@id/chooseDays"
             app:exitAnim="@anim/fade_out"
             app:enterAnim="@anim/fade_in" />
@@ -19,7 +19,39 @@
 
     <fragment
         android:id="@+id/chooseDays"
-        android:name="lt.sporttech.ubalancit.features.choosedays.ChooseDaysFragment" />
+        android:name="lt.sporttech.ubalancit.features.choosedays.ChooseDaysFragment" >
+
+        <action
+            android:id="@+id/proceedFromChooseDays"
+            app:destination="@id/choosePlan"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/choosePlan"
+        android:name="lt.sporttech.ubalancit.features.chooseplan.ChoosePlanFragment" >
+
+        <action
+            android:id="@+id/proceedFromChoosePlan"
+            app:destination="@id/exercisesList"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exercisesList"
+        android:name="lt.sporttech.ubalancit.features.exercises.ExercisesListFragment" >
+
+        <action
+            android:id="@+id/startWorkout"
+            app:destination="@id/workout"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/workout"

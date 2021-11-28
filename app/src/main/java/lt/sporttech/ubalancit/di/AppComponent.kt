@@ -1,6 +1,7 @@
 package lt.sporttech.ubalancit.di
 
 import dagger.Component
+import lt.sporttech.ubalancit.features.exercises.ExercisesListViewModel
 import lt.sporttech.ubalancit.features.workout.WorkoutViewModel
 
 @Component(
@@ -10,4 +11,5 @@ import lt.sporttech.ubalancit.features.workout.WorkoutViewModel
 )
 interface AppComponent {
     fun inject(target: WorkoutViewModel)
+    fun inject(target: ExercisesListViewModel)
 }

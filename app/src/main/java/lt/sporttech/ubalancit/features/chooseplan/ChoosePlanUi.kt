@@ -67,8 +67,15 @@ internal fun ChoosePlanUi(
             .padding(16.dp),
         colors = ButtonDefaults.buttonColors(
             backgroundColor = IOS_NATIVE_BLUE,
+            disabledBackgroundColor = Color.Gray,
         ),
         onClick = onContinueClick,
+        enabled = (
+            state.isGymSelected.toInt() +
+                state.isHomeSelected.toInt() +
+                state.isFullWorkoutSelected.toInt() +
+                state.is15minSelected.toInt() == 2
+            )
     ) {
         Text(
             text = "Continue",
@@ -151,6 +158,9 @@ private fun Option(
         fontSize = 12.sp,
     )
 }
+
+private fun Boolean.toInt(): Int =
+    if (this) 1 else 0
 
 @Composable
 @Preview

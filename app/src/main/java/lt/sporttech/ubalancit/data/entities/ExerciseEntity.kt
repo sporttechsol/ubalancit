@@ -17,7 +17,7 @@ import androidx.room.PrimaryKey
 )
 data class ExerciseEntity(
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = false)
     val id: Int,
 
     val complexId: Int,

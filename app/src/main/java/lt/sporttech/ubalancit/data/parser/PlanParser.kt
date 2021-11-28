@@ -28,9 +28,10 @@ class PlanParser @Inject constructor(
         val weeks = mutableListOf<WorkoutWeek>()
         reader.beginObject()
 
+        var weekId = 1
         while (reader.hasNext()) {
             reader.nextName()
-            weeks.add(weekParser.parse(reader))
+            weeks.add(weekParser.parse(reader, weekId++))
         }
 
         reader.endObject()

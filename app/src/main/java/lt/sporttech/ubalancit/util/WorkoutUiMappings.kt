@@ -1,8 +1,7 @@
-package lt.sporttech.ubalancit.features.workout
+package lt.sporttech.ubalancit.util
 
 import androidx.compose.ui.graphics.Color
 import lt.sporttech.ubalancit.core.alias.Milliseconds
-import lt.sporttech.ubalancit.util.IOS_NATIVE_BLUE
 
 internal fun setsRelationColor(isEnabled: Boolean): Color =
     if (isEnabled) IOS_NATIVE_BLUE else Color.Gray

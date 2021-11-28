@@ -1,4 +1,4 @@
-package lt.sporttech.ubalancit.features.choosedays
+package lt.sporttech.ubalancit.logo
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,15 +10,15 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import lt.sporttech.ubalancit.R
 
-class ChooseDaysFragment: Fragment() {
+class LogoFragment: Fragment() {
 
-    private lateinit var viewModel: ChooseDaysViewModel
+    private lateinit var viewModel: LogoViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())
-            .get(ChooseDaysViewModel::class.java)
+            .get(LogoViewModel::class.java)
     }
 
     override fun onCreateView(
@@ -27,16 +27,15 @@ class ChooseDaysFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? = ComposeView(requireContext()).apply {
         setContent {
-            ChooseDaysUi(
-                state = viewModel.state.value,
-                toggleSelection = viewModel::toggleSelection,
-                onContinueClick = ::onSubmit,
-            )
+            LogoUi()
         }
     }
 
-    private fun onSubmit() {
-        viewModel.onSubmit()
-        findNavController().navigate(R.id.proceedFromChooseDays)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        viewModel.whenTimerEllapses {
+            findNavController().navigate(R.id.openStartScreen)
+        }
     }
 }

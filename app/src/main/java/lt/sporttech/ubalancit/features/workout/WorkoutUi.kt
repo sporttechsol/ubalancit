@@ -23,9 +23,9 @@ import androidx.compose.ui.unit.sp
 import lt.sporttech.ubalancit.R
 import lt.sporttech.ubalancit.core.model.*
 import lt.sporttech.ubalancit.core.model.Set
-import lt.sporttech.ubalancit.util.COLOR_DONE
-import lt.sporttech.ubalancit.util.COLOR_SKIP
-import lt.sporttech.ubalancit.util.COLOR_SO_SO
+import lt.sporttech.ubalancit.util.*
+import lt.sporttech.ubalancit.util.durationString
+import lt.sporttech.ubalancit.util.setsRelationColor
 
 private enum class SetsRelation {
     NOT_EXIST,
@@ -247,7 +247,7 @@ private fun SetResultButton(
 private fun Image(
     @DrawableRes imageRes: Int
 ) = Image(
-    modifier = Modifier.fillMaxWidth(),
+    modifier = Modifier.fillMaxWidth().aspectRatio(1.43f),
     painter = painterResource(imageRes),
     contentDescription = null,
     contentScale = ContentScale.Crop
@@ -277,17 +277,19 @@ private fun WorkoutUiPreview() = WorkoutUi(
             DayOfWeek.TUESDAY,
             complexes = listOf(
                 Complex(
-                    "Main Complex",
+                    id = 0,
+                    title = "Main Complex",
                     exercises = listOf(
                         Exercise(
+                            0,
                             "Wide push ups",
                             R.drawable.incline_push_ups,
                             listOf(
-                                Set(10, 15_000L),
-                                Set(10, 15_000L),
-                                Set(null, 15_000L),
-                                Set(null, 150_000L),
-                                Set(null, 15_000L),
+                                Set(0, 10, 15_000L),
+                                Set(0, 10, 15_000L),
+                                Set(0, null, 15_000L),
+                                Set(0, null, 150_000L),
+                                Set(0, null, 15_000L),
                             )
                         )
                     )

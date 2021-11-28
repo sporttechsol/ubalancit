@@ -22,7 +22,7 @@ import androidx.room.PrimaryKey
 )
 data class WorkoutDayEntity(
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = false)
     val id: Int,
 
     val weekPosition: Int,

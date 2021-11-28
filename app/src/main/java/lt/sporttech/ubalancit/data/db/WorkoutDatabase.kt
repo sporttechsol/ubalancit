@@ -19,6 +19,8 @@ import lt.sporttech.ubalancit.data.entities.*
 )
 abstract class WorkoutDatabase: RoomDatabase() {
 
+    abstract val dao: WorkoutDao
+
     companion object {
         private var instance: WorkoutDatabase? = null
 

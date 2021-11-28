@@ -64,8 +64,10 @@ internal fun ChooseDaysUi(
             .padding(16.dp),
         colors = ButtonDefaults.buttonColors(
             backgroundColor = IOS_NATIVE_BLUE,
+            disabledBackgroundColor = Color.Gray,
         ),
         onClick = onContinueClick,
+        enabled = state.selectedDays.size == 3,
     ) {
         Text(
             text = "Get Started",

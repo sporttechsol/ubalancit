@@ -18,7 +18,7 @@ import lt.sporttech.ubalancit.core.alias.Milliseconds
 )
 data class SetEntity(
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = false)
     val id: Int,
 
     val exerciseId: Int,

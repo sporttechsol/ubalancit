@@ -1,4 +1,4 @@
-package lt.sporttech.ubalancit.features.choosedays
+package lt.sporttech.ubalancit.features.exercises
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,15 +10,16 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import lt.sporttech.ubalancit.R
 
-class ChooseDaysFragment: Fragment() {
+class ExercisesListFragment: Fragment() {
 
-    private lateinit var viewModel: ChooseDaysViewModel
+    private lateinit var viewModel: ExercisesListViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())
-            .get(ChooseDaysViewModel::class.java)
+            .get(ExercisesListViewModel::class.java)
+        viewModel.provideDependencies(requireContext().applicationContext)
     }
 
     override fun onCreateView(
@@ -26,17 +27,17 @@ class ChooseDaysFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = ComposeView(requireContext()).apply {
+        viewModel.loadData()
+
         setContent {
-            ChooseDaysUi(
-                state = viewModel.state.value,
-                toggleSelection = viewModel::toggleSelection,
-                onContinueClick = ::onSubmit,
+            ExercisesListUi(
+                viewModel.dataState.value,
+                ::navigateToWorkout
             )
         }
     }
 
-    private fun onSubmit() {
-        viewModel.onSubmit()
-        findNavController().navigate(R.id.proceedFromChooseDays)
+    private fun navigateToWorkout() {
+        findNavController().navigate(R.id.startWorkout)
     }
 }
