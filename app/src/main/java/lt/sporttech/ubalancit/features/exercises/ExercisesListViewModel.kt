@@ -6,8 +6,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import lt.sporttech.ubalancit.core.model.DayOfWeek
-import lt.sporttech.ubalancit.core.model.ScheduledWorkoutDay
 import lt.sporttech.ubalancit.di.AppModule
 import lt.sporttech.ubalancit.di.DaggerAppComponent
 import lt.sporttech.ubalancit.features.workout.WorkoutRepository
@@ -16,7 +14,7 @@ import javax.inject.Inject
 class ExercisesListViewModel: ViewModel() {
 
     @Inject lateinit var repository: WorkoutRepository
-    val dataState = mutableStateOf(ScheduledWorkoutDay(DayOfWeek.MONDAY, emptyList()))
+    val state = mutableStateOf<ExercisesListState>(ExercisesListState.Loading)
 
     fun provideDependencies(context: Context) {
         DaggerAppComponent
@@ -28,7 +26,12 @@ class ExercisesListViewModel: ViewModel() {
 
     fun loadData() {
         viewModelScope.launch(Dispatchers.IO) {
-            dataState.value = repository.getData(DayOfWeek.MONDAY)
+            state.value = ExercisesListState.Loading
+
+            state.value = when (repository.shouldWorkOutToday()) {
+                true -> ExercisesListState.WorkoutDay(repository.loadData())
+                false -> ExercisesListState.RelaxDay
+            }
         }
     }
 }

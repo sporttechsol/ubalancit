@@ -27,14 +27,17 @@ class ExercisesListFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = ComposeView(requireContext()).apply {
-        viewModel.loadData()
-
         setContent {
             ExercisesListUi(
-                viewModel.dataState.value,
+                viewModel.state.value,
                 ::navigateToWorkout
             )
         }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        viewModel.loadData()
     }
 
     private fun navigateToWorkout() {

@@ -1,17 +1,20 @@
 package lt.sporttech.ubalancit.features.exercises
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -23,6 +26,7 @@ import lt.sporttech.ubalancit.core.model.ScheduledWorkoutDay
 import lt.sporttech.ubalancit.core.model.Set
 import lt.sporttech.ubalancit.util.*
 import lt.sporttech.ubalancit.util.durationString
+import lt.sporttech.ubalancit.R
 
 private enum class ExercisesRelation {
     NOT_EXIST,
@@ -32,6 +36,62 @@ private enum class ExercisesRelation {
 
 @Composable
 internal fun ExercisesListUi(
+    state: ExercisesListState,
+    onStartWorkoutClick: () -> Unit
+) = when (state) {
+    is ExercisesListState.Loading -> LoadingUi()
+    is ExercisesListState.RelaxDay -> RelaxUi()
+    is ExercisesListState.WorkoutDay -> WorkoutUi(state.data, onStartWorkoutClick)
+}
+
+@Composable
+private fun LoadingUi() = Box(
+    modifier = Modifier
+        .fillMaxSize()
+        .background(Color.White),
+    contentAlignment = Alignment.Center
+) {
+    CircularProgressIndicator()
+}
+
+@Composable
+private fun RelaxUi() = Box(
+    modifier = Modifier
+        .fillMaxSize()
+        .background(Color.White),
+    contentAlignment = Alignment.Center,
+) {
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Image(
+            modifier = Modifier.fillMaxWidth(0.7f).aspectRatio(1.0f),
+            painter = painterResource(R.drawable.relax),
+            contentDescription = null,
+        )
+
+        Text(
+            text = "Relax!",
+            color = Color.Red,
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold,
+        )
+        Text(
+            modifier = Modifier.padding(top = 8.dp),
+            text = "Today is your rest day.",
+            color = Color.Black,
+            fontSize = 18.sp,
+        )
+        Text(
+            modifier = Modifier.padding(top = 8.dp),
+            text = "See you tomorrow!",
+            color = Color.Black,
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+        )
+    }
+}
+
+@Composable
+private fun WorkoutUi(
     data: ScheduledWorkoutDay,
     onStartWorkoutClick: () -> Unit
 ) = Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.BottomCenter) {
@@ -181,25 +241,34 @@ private fun Separator() = Box(
 @Composable
 @Preview
 private fun ExercisesListUiPreview() = ExercisesListUi(
-    ScheduledWorkoutDay(
-        dayOfWeek = DayOfWeek.SUNDAY,
-        complexes = listOf(
-            Complex(
-                id = 0,
-                title = "Warm Up",
-                exercises = listOf(
-                    Exercise(
-                        id = 0,
-                        title = "Joint Mobility",
-                        imageRes = 0,
-                        sets = listOf(
-                            Set(0, null, 600_000L)
+    ExercisesListState.WorkoutDay(
+        ScheduledWorkoutDay(
+            dayOfWeek = DayOfWeek.SUNDAY,
+            complexes = listOf(
+                Complex(
+                    id = 0,
+                    title = "Warm Up",
+                    exercises = listOf(
+                        Exercise(
+                            id = 0,
+                            title = "Joint Mobility",
+                            imageRes = 0,
+                            sets = listOf(
+                                Set(0, null, 600_000L)
+                            )
                         )
                     )
                 )
             )
-        )
+        ),
     ),
 
+    {  }
+)
+
+@Composable
+@Preview
+private fun RelaxPreview() = ExercisesListUi(
+    ExercisesListState.RelaxDay,
     {  }
 )

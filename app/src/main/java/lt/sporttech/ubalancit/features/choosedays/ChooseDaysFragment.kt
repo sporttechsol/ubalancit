@@ -19,6 +19,7 @@ class ChooseDaysFragment: Fragment() {
 
         viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())
             .get(ChooseDaysViewModel::class.java)
+        viewModel.provideDependencies(requireContext().applicationContext)
     }
 
     override fun onCreateView(
@@ -36,7 +37,8 @@ class ChooseDaysFragment: Fragment() {
     }
 
     private fun onSubmit() {
-        viewModel.onSubmit()
-        findNavController().navigate(R.id.proceedFromChooseDays)
+        viewModel.submit {
+            findNavController().navigate(R.id.proceedFromChooseDays)
+        }
     }
 }
