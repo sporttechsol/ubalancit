@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/workout" >
+
+    <fragment
+        android:id="@+id/choosePlan"
+        android:name="lt.sporttech.ubalancit.features.chooseplan.ChoosePlanFragment" >
+
+        <action
+            android:id="@+id/proceedFromChoosePlan"
+            app:destination="@id/chooseDays"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/chooseDays"
+        android:name="lt.sporttech.ubalancit.features.choosedays.ChooseDaysFragment" />
+
+    <fragment
+        android:id="@+id/workout"
+        android:name="lt.sporttech.ubalancit.features.workout.WorkoutFragment" >
+
+        <action
+            android:id="@+id/showResult"
+            app:destination="@id/result"
+            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/fade_in" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/result"
+        android:name="lt.sporttech.ubalancit.features.result.ResultFragment" />
+
+</navigation>

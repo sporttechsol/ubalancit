@@ -1,0 +1,1178 @@
+{
+    "WEEK 1": {
+        "Day 1": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 2": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 3": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        }
+    },
+    "WEEK 2": {
+        "Day 1": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 2": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 3": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        }
+    },
+    "WEEK 3": {
+        "Day 1": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 2": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        },
+        "Day 3": {
+            "Warm up": {
+                "exercises": [
+                    {
+                        "title": "Joint mobility",
+                        "sets": 1,
+                        "workoutTime": 300
+                    },
+                    {
+                        "title": "Running",
+                        "sets": 1,
+                        "workoutTime": 600
+                    },
+                    {
+                        "title": "Chest press machine",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Incline push ups",
+                        "sets": 1,
+                        "repetitions": 10
+                    },
+                    {
+                        "title": "Elastic band hammer curl",
+                        "sets": 1,
+                        "repetitions": 30
+                    }
+                ]
+            },
+            "Main complex": {
+                "name": "Chest + Biceps + Back",
+                "exercises": [
+                    {
+                        "title": "Wide push ups",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Cable cross over",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Dumbbell alternate biceps curl",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Single arm dumbell row",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Burpees",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    },
+                    {
+                        "title": "Reverse crunches",
+                        "sets": 3,
+                        "repetitions": 10,
+                        "workoutTime": 40,
+                        "restTime": 20
+                    }
+                ]
+            },
+            "Cool down": {
+                "name": "Stretching Exercices",
+                "exercises": [
+                    {
+                        "title": "Standing wall stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Arch to the sky",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Tríceps stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Ankle on the knee",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Butterfly stretch",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Knee to chest",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Cow face pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    },
+                    {
+                        "title": "Child pose",
+                        "sets": 1,
+                        "workoutTime": 20
+                    }
+                ]
+            }
+        }
+    }
+}
